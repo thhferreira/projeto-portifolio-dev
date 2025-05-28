@@ -2,16 +2,26 @@ html, body {
   height: 100%;
   margin: 94px;
 }
+body {
+  background-image: url(../assets/Background_Intro.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .container {
   display: flex;
   margin-top: 80px;
   justify-content: center;
+
+  img {
+    margin-left: 8px;
+  }
 }
 
 .perfil {
   display: flex;
   justify-content: center;
+  margin-top: 123px;
   img {
     border-radius: 9999px;
     width: 87.27px;
@@ -27,6 +37,7 @@ html, body {
   border-radius: 999px;
   font: var(--tex-md);
   color: var(--gray-500);
+  margin-right: 16px;
 }
 
 h2, h1 , p {
@@ -38,6 +49,7 @@ h2, h1 , p {
 h2 {
   font-family: var(--font-family2);
   margin-top: 52px;
+  color: var(--gray-500)
 
 }
 
@@ -52,4 +64,17 @@ h1 {
 
 p {
   margin-top: 20px;
+  color: var(--gray-400);
+  display:flex;
+  justify-content: center;
+}
+span {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.seta {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
 }
