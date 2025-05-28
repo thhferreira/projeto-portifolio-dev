@@ -27,8 +27,10 @@
   --h2: 20px/120% var(--font-family2);
   --text-md: 16px/140% var(--font-family3);
   --text-sm: 14px/140% var(--font-family3);
+  --sub-title:700 20px/120% var(--font-family);
 }
 
 body {
   font: var(--text);
 }
+
