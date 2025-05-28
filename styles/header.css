@@ -23,10 +23,12 @@ body {
   justify-content: center;
   margin-top: 123px;
   img {
+    border: 2px solid var(--red);
     border-radius: 9999px;
     width: 87.27px;
     height: 87.27px;
     object-fit: cover;
+    padding:2px;
   }
 }
 
