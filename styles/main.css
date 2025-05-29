@@ -1,14 +1,23 @@
-main h2 {
-  font-family: var(--font-family2);
-  color: var(--red);
-  margin-top: 144px;
+body {
+ background-color: var(--gray-200);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+
 }
 
-main h1 {
-  font-family: var(--font-family);
-  color: var(--gray-600);
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: bold;
-  margin-top: 8px;
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
+.projetos {
+  margin: 80px;
+}
+
+main {
+  img {
+    background-color: var(--gray-500);
+  }
+}
+

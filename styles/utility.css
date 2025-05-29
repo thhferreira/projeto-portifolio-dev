@@ -1,0 +1,44 @@
+
+  .text {
+    font: var(--text);
+  }
+
+  .title-lg {
+    font: var(--h1);
+    color: var(--gray-600);
+  }
+
+  .title-md {
+    font: var(--h2);
+    color: var(--gray-600)
+  }
+
+  .title-sm {
+    font: var(--h4);
+  }
+
+  .h5 {
+    font: var(--h5);
+    color: var(--gray-500)
+  }
+  .h5color {
+    font: var(--h5);
+    color: var(--red)
+  }
+
+  .text-md {
+    font: var(--span);
+    color: var(--gray-500);
+  }
+
+  .text-sm {
+    font: var(--p);
+  }
+  .text-pcolor {
+    font: var(--p);
+    color: var(--gray-400);
+  }
+
+  .sub-title {
+    font: var(--h3);
+  }
