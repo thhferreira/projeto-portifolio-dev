@@ -8,16 +8,46 @@ body {
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  gap: 24px;
+
+  
+  img {
+   border-radius: 8px;
+   height: 156px;
+   width: 306px;
+   object-fit: cover;
+   text-align: left;
+   display: inline-block;
+  }
 }
+
+.fundo {
+  background-color: var(--gray-300);
+  padding: 12px 12px 112px 12px;
+  border-radius: 12px;
+  height: 280px;
+  width: 330px;
+}
+
 
 .projetos {
   margin: 80px;
+  h1 {
+  margin-top: 8px;
+}
 }
 
-main {
-  img {
-    background-color: var(--gray-500);
-  }
+
+section p {
+  margin: 8px;
+  text-align: left;
+  display: inline-block;
+}
+
+
+img {
+  max-width: 100%;
 }
 

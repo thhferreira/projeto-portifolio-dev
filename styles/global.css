@@ -33,7 +33,3 @@
 body {
   font: var(--text);
 }
-
-img {
-  max-width: 100%;
-}
