@@ -6,7 +6,7 @@ body {
 
 }
 
-.cards {
+#cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-self: center;
@@ -32,7 +32,7 @@ body {
 }
 
 
-.projetos {
+#projetos {
   margin: 80px;
   h1 {
   margin-top: 8px;
@@ -51,3 +51,9 @@ img {
   max-width: 100%;
 }
 
+.borda:hover {
+  transform: scale(1.1);  /* Aumenta o tamanho do card ao passar o rato */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+  background-color: var(--gray-300); /* Muda a cor de fundo */
+  border: 2px solid var(--gray-400);
+}
