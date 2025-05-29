@@ -53,7 +53,5 @@ img {
 
 .borda:hover {
   transform: scale(1.1);  /* Aumenta o tamanho do card ao passar o rato */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
-  background-color: var(--gray-300); /* Muda a cor de fundo */
   border: 2px solid var(--gray-400);
 }
