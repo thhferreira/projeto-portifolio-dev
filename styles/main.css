@@ -55,3 +55,15 @@ img {
   transform: scale(1.1);  /* Aumenta o tamanho do card ao passar o rato */
   border: 2px solid var(--gray-400);
 }
+#cards {
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    margin-top: 11px;
+  }
+  h4 {
+    margin-top: 15px;
+  }
+  
+}
