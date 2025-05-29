@@ -11,3 +11,22 @@
     margin-top: 8px;
   }
 }
+
+.fundos {
+  padding: 20px;
+  border-radius: 12px;
+  height: 155px;
+  width: 280px;
+  border: 2px solid var(--gray-200);
+  h4 {
+    margin-top: 8px;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  gap: 24px;
+  margin-top: 56px;
+}
